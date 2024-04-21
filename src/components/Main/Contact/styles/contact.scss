@@ -1,0 +1,159 @@
+.contactpage{
+  background-image: url("https://ik.imagekit.io/snpublicschoolara/images/schoolcompound.jpeg?updatedAt=1702019192056");
+  color: transparent;
+  height: 500px;
+background-attachment: fixed;
+background-position: center;
+background-repeat: no-repeat;
+background-size: cover;
+}
+.contactheading{
+  text-align: center;
+  padding-top: 16rem
+  
+  
+}
+.border{
+  border: 3px solid white;
+  border-top: none;
+  border-left: none;
+  border-right: none;
+  margin-left: 35%;
+  margin-right:35%;
+}
+.contacttext{
+  color: white;
+  font-size: 29px;
+  font-weight: 600;
+  white-space: nowrap;
+}
+.schoolname{
+  color: yellow;
+  font-size: 26px;
+  font-weight: 600;
+  white-space: nowrap;
+}
+.reachus{
+  padding-top: 20px;
+  margin-left: 6%;
+}
+.addressheading{
+  font-size: 26px;
+  font-weight: 600;
+  color: #f31e1e;
+}
+.reachborder{
+  content: " ";
+  display: block;
+  padding-top: 15px;
+  border: 3px solid black;
+  border-top: none;
+  border-left: none;
+  border-right: none;
+  margin-right: 90%;
+  
+}
+.Add{
+  padding-top: 15px;
+}
+.text{
+  font-size: 16px;
+  font-weight: 400;
+  color: #7a7a7a;
+  padding-top: 15px;
+}
+.name{
+  padding-top: 7px;
+}
+.follow{
+  font-size: 32px;
+  font-weight: 500;
+  color: #333333;
+  
+}
+.socialmedia{
+  flex-grow: 1;
+  flex-basis: 200;
+  
+}
+
+.apply-box{
+  background-image: url("https://img.freepik.com/free-photo/paper-note-frame-with-brown-memphis-pattern-background_53876-119795.jpg?w=1380&t=st=1698604211~exp=1698604811~hmac=9eaac88c13f2bed865c7b89581e09e1039becbd2bd7ab4331877b4a6bedd8eb9");
+  background-position: center;
+background-repeat: no-repeat;
+background-size: 100% 100%;
+  max-width: 100%;
+  margin-top: 50px;
+  margin-bottom: 30px;
+  border-radius: 10px;
+  padding-bottom: 3.5rem;
+  background-color: #faebeb;
+  box-shadow: 0 0 0 1px rgb(135 99 99 / 30%) inset, 0 0.5em 1em rgba(0, 0, 0, 0.6);
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center; 
+  align-items: center; 
+  
+}
+
+.form-container{
+  margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+   padding-right: 30%;
+   padding-left: 30%;
+    gap: 20px;
+  flex-basis: 200;
+  
+}
+.form-control{
+  display: flex;
+  flex-direction: column;
+  width: 97%;
+  
+}
+label{
+  font-size: 15px;
+  margin-bottom: 5px;
+  box-shadow: 0 0 0 1px rgba(0, 0, 0, 0.3) inset, 0 0.5em 1em rgba(15, 0, 0, 0.6);
+}
+input, 
+select, 
+textarea{
+  padding: 6px 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  font-size: 15px;
+}
+
+input:focus , textarea:focus{
+  outline-color: red;
+  
+}
+.button-container{
+   display: flex;
+    margin-top: 20px;
+    
+}
+button{
+  border: transparent solid 2px;
+  padding: 5px 10px;
+  border-radius: 8px;
+  background-color: cyan;
+  color: black;
+  border: 2px solid cyan;
+  transition: 0.2s ease-out;
+  cursor: pointer;
+  
+}
+.textarea-control{
+  grid-column: 1 /span 2;
+} 
+.textarea-control textarea{
+  width: 97%;
+}
+@media (max-width: 460px){
+  .textarea-control{
+  grid-column: 1 /span 1;
+}
+};

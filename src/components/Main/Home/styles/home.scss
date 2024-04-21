@@ -1,0 +1,199 @@
+.slideshow {
+  margin-top: 1.5rem;
+  overflow: hidden;
+  max-width: 2000px;
+  margin: auto;
+  margin-bottom: 50px;
+  border-radius: 40px;
+}
+
+.slideshowSlider {
+  white-space: nowrap;
+  transition: ease 1000ms;
+  height: 600px;
+  margin-bottom: -190px;
+  width: 1600px;
+  background-repeat: no-repeat;
+}
+
+.slide {
+  background-repeat: no-repeat;
+  display: inline-block;
+  height: 800px;
+  width: 100%;
+}
+
+/* Buttons */
+
+.slideshowDots {
+  text-align: center;
+  position: relative;
+  margin-top: -5rem;
+  margin-bottom: 2rem;
+}
+
+.slideshowDot {
+  display: inline-block;
+  height: 20px;
+  width: 20px;
+  border-radius: 50%;
+
+  cursor: pointer;
+  margin: 15px 7px 0px;
+
+  background-color: #c4c4c4;
+}
+
+.slideshowDot.active {
+  background-color: #6a0dad;
+}
+
+
+// Benifit card css
+
+.bc-container {
+  width: 100%;
+  padding-right: 15px;
+  padding-left: 15px;
+  margin-right: auto;
+  margin-left: auto;
+
+  .benifit-list {
+    background: #0d3b6b;
+    display: flex;
+    padding: 2rem;
+    border-radius: 10px;
+    color: #fff;
+    text-align: center;
+    box-shadow: 0px 3px 9px #8e8d8d;
+  }
+
+  .list-div {
+    padding: 0 2rem;
+    width: 25%;
+    min-width: 12rem;
+    &:not(&:last-child) {
+      border-right: 1px solid #1d5085;
+    }
+
+    .bc-title {
+      color: #ff891e;
+    }
+  }
+}
+
+@media screen and (max-width: 640px) {
+  .bc-container {
+    .list-div {
+      width: 80%;
+      &:not(&:last-child) {
+        border: none;
+      }
+    }
+  }
+  .slide {
+    display: inline-block;
+    height: 400px;
+    width: 100%;
+    border-radius: 40px;
+  }
+}
+
+//Director Message Box
+
+.director-section{
+  height: 40rem;
+  width: 100%;
+  background-color: rgb(121, 121, 248);
+  padding-bottom: 65px;
+  
+}
+@media screen and (max-width: 1200px) {
+  .director-section{
+    background-color: rgb(121, 121, 248);
+  height: 100%;
+  
+  width: 100%;
+  }
+  
+}
+.dir-container{
+  width: 100%;
+    padding-left: 25px;
+    padding-right: 25px;
+}
+.row{
+  display: flex;
+    flex-wrap: wrap;
+    padding-right: -10px;
+    padding-left: -10px;
+    width: 100%;
+}
+.direc-image {
+  width: 38rem;
+  padding: 50px;
+}
+.diri-img{
+  
+  height: 33rem;
+  width: 29rem;
+  padding: 20px;
+  background: #fff;
+}
+
+@media screen and (max-width: 1200px) {
+  .diri-img {
+    height: 37rem;
+    width: 100%;
+    padding: 10px;
+  }
+  
+}
+@media screen and (max-width: 640px) {
+  .direc-image {
+    width: 100%;
+    padding: 50px;
+  }
+}
+.dir-msg{
+  
+  width: 44%;
+  padding-top: 50px;
+}
+@media screen and (max-width: 640px) {
+
+.dir-msg{
+  
+  width: 100rem;
+  padding-top: 10px;
+  
+  
+}
+}
+.director-heading{
+  font-size: 32px;
+  font-weight: 600;
+  color: white;
+}
+.quote{
+  font-style: italic;
+  font-size: 19px;
+  font-weight: 500;
+  color: white;
+}
+.msg1{
+  font-size: 16px;
+  font-weight: 200;
+  color: white;
+  
+}
+.msg2{
+  font-size: 16px;
+  font-weight: 200;
+  color: white;
+  
+}
+
+
+
+

@@ -1,0 +1,79 @@
+head{
+    color: aliceblue;
+}
+.aboutpage{
+    background-color: #fff;
+}
+.paragraph{
+    columns: 200px 2;
+    column-gap: 30px;
+    color: #fff;
+    padding: 25px;
+}
+.aboutus{
+    display: grid;
+    place-items: center;
+    color: #2b364a;
+    font-size: 62px;
+    font-weight: 400;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    padding-bottom: 20px;
+    line-height: 72px;
+}
+.aboutschool{
+    display: grid;
+    place-items: center;
+    color: rgba(99, 115, 129, 0.5);
+    font-size: 26px;
+    font-weight: 700;
+    font-family: sans-serif;
+    padding-top: 20px;
+    line-height: 26px;
+}
+.line{
+        width: 50%;
+        height: 2px;
+        margin-left: auto;
+        margin-right: auto;
+        background-color: #333333;
+}
+.title{
+    column-span: all;
+    display: block;    
+}
+.ourschool{
+    padding-left: 10px;
+    padding-right: 10px;
+}
+.school_img{
+    float: right;
+    height: 25rem;
+    width: 30rem;
+    margin-right: 100px;
+    padding-left: 25px;
+    
+}
+.os_heading{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 28px;
+    font-weight: 600;
+    padding-bottom: 5px;
+    margin-left: 7px;
+    margin-top: 25px;
+}
+.os_content{
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 16px;
+    font-weight: 200;
+    padding: 10px;
+    
+}
+@media (max-width: 460px){
+    .school_img{
+        float: right;
+        height: 25rem;
+        width: 100%;
+       margin-right: 10px;
+        
+    }
+  };
